@@ -1,4 +1,3 @@
-/* Style for the whole app */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -9,8 +8,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-
-/* Container styling */
 .container {
   background-color: #fff;
   padding: 20px 30px;
@@ -19,12 +16,9 @@ body {
   text-align: center;
   width: 300px;
 }
-
-/* Search box styling */
 .search-box {
   margin-bottom: 20px;
 }
-
 #city-input {
   padding: 10px;
   width: calc(100% - 22px);
@@ -32,7 +26,6 @@ body {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-
 #search-btn {
   padding: 10px;
   cursor: pointer;
@@ -45,8 +38,39 @@ body {
 #search-btn:hover {
   background-color: #0056b3;
 }
-
-/* Weather info section */
 .weather-info p {
   margin: 8px 0;
+}
+/* Styling the temperature */
+#temperature {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* Styling the weather description */
+#weather-description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: center;
+  font-style: italic;
+}
+/* Styling the city name */
+#city-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* Container for the weather display section */
+.weather-info {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 40px auto;
+  text-align: center;
 }
